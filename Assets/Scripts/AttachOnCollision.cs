@@ -11,7 +11,6 @@ public class AttachOnCollision : MonoBehaviour
             collision.transform.SetParent(transform);
             collision.transform.localPosition = Vector3.zero;
             collision.transform.localRotation = Quaternion.identity;
-            Debug.Log($"{collision.gameObject.name} is now a child of {transform.name}");
         }
     }
 }
