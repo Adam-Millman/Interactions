@@ -22,7 +22,7 @@ public class TwistToggle : MonoBehaviour
 
     private void ToggleInventoryVisibility()
     {
-        float currentYRotation = leftWrist.eulerAngles.y;
+        float currentYRotation = leftWrist.eulerAngles.z;
 
         if (currentYRotation > rotationThreshold && !isInventoryVisible)
         {
