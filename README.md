@@ -3,7 +3,7 @@
 **Interaction Chosen:** Inventory Menu Design  
 
 ## 1. What interaction am I exploring?  
-I am exploring how **inventory management systems** can be implemented in VR using three distinct methods: a **2D Menu**, **Gesture-based Menu**, and **Backpack Menu**. Inventory interactions are crucial in VR for organizing tools, items, or resources, and I want to understand how different implementations impact usability, immersion, and accessibility. My goal is to determine which system provides the most effective and enjoyable experience for users based on various scenarios.
+I am exploring how **inventory management systems** can be implemented in VR using three distinct methods: a **2D Menu**, **Gesture-based Menu**, and **Body Socket (Holster) Menu**. Inventory interactions are crucial in VR for organizing tools, items, or resources, and I want to understand how different implementations impact usability, immersion, and accessibility. My goal is to determine which system provides the most effective and enjoyable experience for users based on various scenarios.
 
 ---
 
@@ -33,15 +33,15 @@ I am exploring how **inventory management systems** can be implemented in VR usi
 
 ---
 
-### 3. **Backpack Inventory**  
+### 3. **Body Socket (Holster) Inventory**  
 - **Description:**  
-  Users can reach behind their back to access a virtual backpack. The backpack opens with a pull gesture, allowing them to grab items physically or scroll through contents with hand movements.
+  Items are stored in “holsters” located around the player’s body (e.g., at the waist or shoulder). Users reach toward these specific locations to retrieve or store items directly from their virtual body.
 
 - **Rationale:**  
-  This system provides a highly immersive experience and reduces on-screen clutter. However, it can be **challenging for users with limited mobility** or in cases where precise object tracking is necessary.
+  This system maintains high immersion by allowing users to naturally grab items, minimizing on-screen clutter. However, it may pose challenges for users with limited mobility or those new to VR interactions requiring precise physical positioning.
 
 - **Use Case Example:**  
-  Great for **immersive adventure or survival games** where item management should feel realistic (e.g., The Walking Dead: Saints & Sinners).
+  Effective in **action and adventure VR games** where quick access to tools and items is crucial (e.g., VR shooters or exploration games).
 
 ---
 
